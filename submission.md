@@ -16,3 +16,6 @@ Commit and Push Part7_4
     - ใน App.js function App() เพิ่มตัวแปร newgame เพื่อไว้ใช้ในการรีโหลดหน้าเว็บ
     - ใน App.js function App() ปุ่มที่เมื่อคลิกแล้วจะเรียกใช้งานตัวแปร newgame เพื่อรีโหลดหน้าเว็บ
     - ใน App.css เพิ่ม blackground2
+
+Commit and Push Part7_5
+    - ใน App.js function App() เพิ่มปุ่ม Giveup เมื่อกดแล้วจะเริ่มเกมใหม่และรีโหลดหน้าเว็บ

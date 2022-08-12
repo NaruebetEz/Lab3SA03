@@ -9,6 +9,10 @@ var quizshow = quizz[Math.floor(Math.random()*quizz.length)];
 const newgame = () => {
   window.location.reload();
 }
+
+// const Give_up = () =>{
+//   window.print('hello')
+// }
 // const word = "Hello";
 function App() {
   return (
@@ -18,6 +22,7 @@ function App() {
       </div>
       <div className = 'background2'>
         <button className = 'button' onClick={newgame}>new game</button>
+        <button className = 'button' onClick={newgame}>Give up</button>
       </div>
     </div>
   );
