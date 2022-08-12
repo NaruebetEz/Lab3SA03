@@ -55,6 +55,17 @@
   flex-direction: column;
 }
 
+.background2{
+  background-color: #bf0909d7;
+  padding: 100px 100px;
+  text-align: center;
+  font-size: 8px;
+  margin: 4px 2px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+
  .box {
   margin: auto ;
   max-width: 1000px;
@@ -70,7 +81,7 @@
  .button {
   background-color: #1421ce;
   border: none;
-  color: white;
+  color: rgba(226, 240, 29, 0.842);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;

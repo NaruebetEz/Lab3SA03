@@ -6,12 +6,18 @@ import WordCard from './WordCard';
 var quizz = ['hello', 'super', 'memory', 'kamui'];
 var quizshow = quizz[Math.floor(Math.random()*quizz.length)];
 
+const newgame = () => {
+  window.location.reload();
+}
 // const word = "Hello";
 function App() {
   return (
     <div className = 'box'>
       <div className = 'background'>
         <WordCard value={quizshow}/>
+      </div>
+      <div className = 'background2'>
+        <button className = 'button' onClick={newgame}>new game</button>
       </div>
     </div>
   );
